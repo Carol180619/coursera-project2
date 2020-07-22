@@ -10,19 +10,21 @@
 /************************* Container body font family and font size ************************************************/
 body {
   font-family: sans-serif;
+   background-color: #F08080;
   font-size: 100%;
 }
 
 /********** Container H2 styles for region position on section with margins, size, border and !float clearing!********/
 h2{
   position: absolute;
+ 
   top: 0px;
   right:0px;
   margin: auto;
   float: none;
   width: 140px;
   height: 35px;
-  border:1px solid black;
+  border:1px white;
   text-align:center;
   padding: center;
   }
@@ -30,6 +32,7 @@ h2{
 /*********************************** Descripbing Header text align margins and style *********************************/
 h1 {
   text-align: center;
+  color: white;
   margin-top: 5%;
   margin-bottom: 5%; 
 }
@@ -39,7 +42,7 @@ h1 {
   clear: margin;
   position: relative;
   color: black;
-  background-color: darkgrey;
+  background-color: #FFE4C4;
   padding: 10px;
   padding-top: 45px;
   font-size: 100%;
@@ -50,18 +53,18 @@ h1 {
   }  
 
   /********* Creation of the class for region positioning text align margins and style *****************************/
-  .chicken{
-    background-color:#fecdc1; /* pink:https://encycolorpedia.pt/ffc0cb**********************************************/      
-    color: black;
+  .PhD{
+    background-color:#8B008B;/* pink:https://encycolorpedia.pt/ffc0cb**********************************************/      
+    color:  white;
     }
 
-   .beef{
-    background-color:#A52A2A; /* Brown-red:https://www.w3schools.com/cssref/css_colors.asp*************************/
-    color: white;  
+   .Master{
+    background-color: #DC143C ;/* Brown-red:https://www.w3schools.com/cssref/css_colors.asp*************************/
+    color:  white;  
    }
 
-   .sushi{
-    background-color:#FFFACD; /* Yellow:https:https://www.rapidtables.com/web/color/Yellow_Color.html**************/
+   .bachelor{
+    background-color:#DDA0DD; /* Yellow:https:https://www.rapidtables.com/web/color/Yellow_Color.html**************/
     color: black;   
    }
 
